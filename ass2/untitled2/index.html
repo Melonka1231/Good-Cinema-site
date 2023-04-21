@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;700;800&family=Sen:wght@700&display=swap" rel="stylesheet">
+  <title>ILIN</title>
+  <script src="https://kit.fontawesome.com/dc49a974a4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="navbar">
+  <div class="navbar-container">
+    <div class="logo-container"><h1 class="logo">ILIN</h1></div>
+    <div class="menu-container">
+      
+    </div>
+    <div class="profile-container" id="profile-text-selected">
+
+
+    </div>
+    <div class="toggle">
+      <i class="fa-solid fa-moon toggle-icon"></i>
+      <i class="fa-solid fa-sun toggle-icon"></i>
+      <div class="toggle-ball"></div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="content-container">
+    <div class="profiles-pic" id="container-profile-selected">
+      <div class="pics-container"></div>
+    </div>
+    <div class="search-container" id="searchContainer">
+      <div class="inputSearch">
+        <input type="text" id="inputId" placeholder="Search movies, series or animes titles">
+        <i class="left-menu-icon fa-solid fa-magnifying-glass" id="verifyText"></i>
+      </div>
+      <h1 id="Error"></h1>
+      <div class="movie-chosen" id="displayMovieChose">
+        <h1 id="TitleSearch"></h1>
+        <img src="" alt="" class="movie-list-item-img search" id="ImgSearch">
+        <p id="DescSearch"></p>
+        <button class="featured-button" onclick="isTest()">Watch</button>
+      </div>
+    </div>
+    <div class="featured-content"
+          style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('2maybe.jpg')">
+      <img src="img/f-t-2.png" alt="" class="featured-title">
+      <p class="featured-desc">Superkiller John Wick, after violating the code of the secret guild of assassins, receives the status of an outcast — excommunicado. A price of $14 million has been set for him, and an army of professional killers from all over the world is hunting for him.</p>
+      <button class="featured-button" onclick="isTest()"><a href="file:///C:/Users/Admin/lesson/ass2/index2.html">Watch</a></button>
+    </div>
+    <div class="movie-list-container">
+      <h1 class="movie-list-title">For you</h1>
+      <div class="movie-list-wrapper">
+        <div class="movie-list">
+          <div class="movie-list-item">
+            <img src="her1.jpg" alt="" class="movie-list-item-img">
+            <span class="movie-list-item-title">Her</span>
+            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+            <button class="movie-list-item-button" onclick="isTest()">Watch</button>
+          </div>
+          <div class="movie-list-item">
+            <img src="starwar1.jpg" alt="" class="movie-list-item-img">
+            <span class="movie-list-item-title">Star Wars</span>
+            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+            <button class="movie-list-item-button" onclick="isTest()" >Watch</button>
+          </div>
+          <div class="movie-list-item">
+            <img src="storm-poster1.jpg" alt="" class="movie-list-item-img">
+            <span class="movie-list-item-title">Storm</span>
+            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+            <button class="movie-list-item-button" onclick="isTest()" >Watch</button>
+          </div>
+          <div class="movie-list-item">
+            <img src="1917.jpg" alt="" class="movie-list-item-img">
+            <span class="movie-list-item-title">1917</span>
+            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+            <button class="movie-list-item-button" onclick="isTest()" >Watch</button>
+          </div>
+          <div class="movie-list-item">
+            <img src="avangers.jpg" alt="" class="movie-list-item-img">
+            <span class="movie-list-item-title">The Avengers</span>
+            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+            <button class="movie-list-item-button" onclick="isTest()" >Watch</button>
+          </div>
+          <div class="movie-list-item">
+            <img src="rampage.webp" alt="" class="movie-list-item-img">
+            <span class="movie-list-item-title">Rampage</span>
+            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+            <button class="movie-list-item-button" onclick="isTest()" >Watch</button>
+          </div>
+        </div>
+        <i class="fa-solid fa-chevron-right arrow"></i>
+      </div>
+    </div>
+    <div class="movie-list-container">
+      <h1 class="movie-list-title">Populars</h1>
+      <div class="movie-list-wrapper">
+        <div class="movie-list">
+          <div class="movie-list-item">
+            <img src="OBLIVIOM.jpg" alt="" class="movie-list-item-img">
+            <span class="movie-list-item-title">Oblivion</span>
+            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+            <button class="movie-list-item-button" onclick="isTest()" >Watch</button>
+          </div>
+          <div class="movie-list-item">
+            <img src="HOBBIT.jpg" alt="" class="movie-list-item-img">
+            <span class="movie-list-item-title">Hobbit</span>
+            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+            <button class="movie-list-item-button" onclick="isTest()" >Watch</button>
+          </div>
+          <div class="movie-list-item">
+            <img src="DUE DATE.jpg" alt="" class="movie-list-item-img">
+            <span class="movie-list-item-title">Due Date</span>
+            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+            <button class="movie-list-item-button" onclick="isTest()">Watch</button>
+          </div>
+          <div class="movie-list-item">
+            <img src="DARK.jpg" alt="" class="movie-list-item-img">
+            <span class="movie-list-item-title">Dark</span>
+            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+            <button class="movie-list-item-button" onclick="isTest()">Watch</button>
+          </div>
+          <div class="movie-list-item">
+            <img src="EMOJI.jpg" alt="" class="movie-list-item-img">
+            <span class="movie-list-item-title">Emoji Movie</span>
+            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+            <button class="movie-list-item-button" onclick="isTest()">Watch</button>
+          </div>
+          <div class="movie-list-item">
+            <img src="1920.jpg" alt="" class="movie-list-item-img">
+            <span class="movie-list-item-title">1920</span>
+            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+            <button class="movie-list-item-button" onclick="isTest()"><a href="file:///C:/Users/Admin/lesson/ass2/index2.html">Watch</a></button>
+          </div>
+        </div>
+        <i class="fa-solid fa-chevron-right arrow"></i>
+      </div>
+    </div>
+    <div class="featured-content"
+          style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('JOOOHN.jpg')">
+      <p class="featured-desc">John Wick at first glance is the most ordinary average American who leads a quiet peaceful life. However, few people know that at one time he was an assassin, and one of the best professionals in his field. After a criminal steals his beloved Mustang, killing his dog Daisy, John is forced to return to his past. Now Wick starts hunting for a man who had the temerity to cross his path, and he is ready to do anything to take revenge on him…</p>
+      <form action="" target="_blank">
+      <button class="featured-button" onclick="isTest()"><a href="file:///C:/Users/Admin/lesson/ass2/index2.html">Watch</a></button>
+    </div>
+    </div>
+    </div>
+  </div>
+  <footer class="copyright">
+    <p>&copy; Movie Website:Nurai,Yermek,Dias,Aidyn<span id="ano"></span></p>
+  </footer>
+</div>
+<script src="app.js"></script>
+<script>
+  const year = document.querySelector('#ano');
+  ano.innerHTML = new Date().getFullYear();
+</script>
+</body>
+</html>

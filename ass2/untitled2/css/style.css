@@ -1,0 +1,6 @@
+gradient-block {
+  width: 200px;
+  height: 300px;
+  display: inline-block;
+  background-image: linear-gradient(to bottom right, #00FF00, #FFFF00);
+}
